@@ -12,6 +12,7 @@ It is a simple REST API's for the private loan application. Authenticated users 
 ## Prerequisites
 
 - Basic knowlegde of PHP
+- Working experince with composer
 - Basic knowlegde of running test cases
 - Postman tool to run API.
 - Laravel passport API Auth.
@@ -48,11 +49,17 @@ composer install
 ## Migration and Seed
 
 -	Run in project folder
-   ```bash  php artisan migrate:fresh --seed```
+   ```bash 
+   php artisan migrate:fresh --seed
+   ```
 -	In this demo, have used laravel-passport package, which should install before start.
-```bash composer require laravel/passport```
+```bash 
+composer require laravel/passport
+```
 -	Run in project folder
-```bash php artisan passport:install```
+```bash
+php artisan passport:install
+```
 
 
 
@@ -136,7 +143,7 @@ composer install
 To run tests, run the following command
 
 ```bash
-  	UserTest :  php artisan test --filter UserTest
+  UserTest :  php artisan test --filter UserTest
    LoanTest: php artisan test --filter LoanTest
    TransactionTest: php artisan test --filter TransactionTest
 ```
