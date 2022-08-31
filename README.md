@@ -7,6 +7,7 @@ It is a simple REST API's for the private loan application. Authenticated users 
 
 **PHP:** Laravel ,Mysql , Laravel Passport 
 **Routes:** Admin route has been protected using passport policy
+**Document:** A document file has been added in the repo. Flow chat has been added to the document.
 
 
 ## Prerequisites
@@ -15,13 +16,20 @@ It is a simple REST API's for the private loan application. Authenticated users 
 - Working experince with composer
 - Basic knowlegde of running test cases
 - Postman tool to run API.
-- Laravel passport API Auth.
+- [Laravel passport API Auth](https://laravel.com/docs/9.x/passport#introduction).
 - Default Admin user after database seeding :
    Email: admin@admin.com
    password: admin@123
 - Default passport for users: demo@123 
 - [Postman API JSON Link](https://www.getpostman.com/collections/08a0e5e3a94c9924bc00)
 
+
+## Tech Details:
+- Passport setting are done in **App\Providers\AuthServiceProvide** file.
+- Admin route are protected using[Client Credentials Grant Tokens](https://laravel.com/docs/9.x/passport#client-credentials-grant-tokens)
+- Use id's generated from the API response in next API's ( For eg: Loan ID from Loan API in next API)
+- Admin user has been already seeded with the migrate command. Use Admin token for admin operations.
+- Bearer Token are used for Auth
 
 ## Installation
 
