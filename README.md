@@ -108,7 +108,7 @@ composer install
 #### Get pending transaction details by Loan ID
 
 ```http
-  POST api/v1/admin/approve
+  GET api/v1/transaction
   (header: Authorization: Bearer Token)
 ```
 
