@@ -6,7 +6,7 @@ It is a simple REST API's for the private loan application. Authenticated users 
 ## Tech Stack
 
 **PHP:** Laravel ,Mysql , Laravel Passport 
-
+**Routes:** Admin route has been protected using passport policy
 
 
 ## Prerequisites
