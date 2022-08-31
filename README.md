@@ -19,7 +19,7 @@ It is a simple REST API's for the private loan application. Authenticated users 
    Email: admin@admin.com
    password: admin@123
 - Default passport for users: demo@123 
-
+- [Postman API JSON Link](https://www.getpostman.com/collections/08a0e5e3a94c9924bc00)
 
 
 ## Installation
@@ -137,7 +137,7 @@ To run tests, run the following command
 
 ```bash
   	UserTest :  php artisan test --filter UserTest
-    LoanTest: php artisan test --filter LoanTest
-    TransactionTest: php artisan test --filter TransactionTest
+   LoanTest: php artisan test --filter LoanTest
+   TransactionTest: php artisan test --filter TransactionTest
 ```
 
