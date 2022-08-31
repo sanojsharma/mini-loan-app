@@ -48,11 +48,11 @@ composer install
 ## Migration and Seed
 
 -	Run in project folder
-   ```  $ php artisan migrate:fresh –seed```
+   ```bash  php artisan migrate:fresh --seed```
 -	In this demo, have used laravel-passport package, which should install before start.
-```$ composer require laravel/passport```
+```bash composer require laravel/passport```
 -	Run in project folder
-```$ php artisan passport:install```
+```bash php artisan passport:install```
 
 
 
